@@ -1,0 +1,13 @@
+{
+    "name": "ludo/twig",
+    "description": "premier challenge twig",
+    "require": {
+        "twig/twig": "^2.7"
+    },
+    "authors": [
+        {
+            "name": "LudovicCocquyt",
+            "email": "cocquyt.ludovic@laposte.net"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{% extends 'base.html.twig'%}
+
+{% block title %}MVLoose{% endblock %} 
+
+
+
+
+{% block production %}
+	{% for prod in tab %}
+		<div class="card col-4">
+		  <div class="card-body">
+		    <h5 class="card-title"> {{ prod }} </h5>
+		    <p class="card-text">J'ai besion d'une corde!!!</p>
+		  </div>
+		</div>
+	{% endfor %}
+{% endblock %}
+{#
+{% block body %}
+{# array dreamTeam 
+{% for joueur in mesDonnees %}
+
+	Gardien : {{ joueur.gardien }}
+
+	Defenseur de malade : 
+		{% for def in joueur.defenseur %}
+
+			{{ def }}
+			
+		{% endfor %}
+	
+	Attaquant : {{ joueur['att'] }} 
+	
+
+
+{% endfor %}
+{% endblock %} 
+#}
+
